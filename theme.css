@@ -1,0 +1,48 @@
+:root{
+    --bg-pri-col: rgb(16, 16, 16);
+    --bg-sec-col: rgb(39, 38, 38);
+    --bg-active-col: rgb(225, 225, 225);
+    --bg-danger-col: rgb(214, 32, 32);
+
+    /* text-colors */
+    --txt-pri-col: rgb(217, 215, 215);
+    --txt-sec-col: rgb(194, 192, 192);
+    --txt-ter-col: rgb(140, 139, 139);
+    --txt-active-col: rgb(17, 17, 17);
+
+    /* padding */
+    --padding-sm: 0.5rem;
+    --padding-md: 1rem;
+    --padding-lg: 1.5rem;
+    --padding-xl: 2.0rem;
+    --padding-2xl: 2.5rem;
+
+    /*margin */
+    --margin-sm: 0.5rem;
+    --margin-md: 1rem;
+    --margin-lg: 1.5rem;
+    --margin-xl: 2.0rem;
+    --margin-2xl: 3rem;
+
+    /* gutter */
+    --gutter-sm: 0.5rem;
+    --gutter-md: 1rem;
+    --gutter-lg: 1.5rem;
+    --gutter-xl: 2.0rem;
+    --gutter-2xl: 3rem;
+
+    /* font-size */
+    --font-size-sm: 0.87rem;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+
+    /* border-radius */
+    --border-rad-sm: 0.2rem;
+    --border-rad-md: 0.25rem;
+    --border-rad-lg: 0.3rem;
+    --border-rad-xl: 0.4rem;
+    --border-rad-2xl: 0.5rem;
+
+}

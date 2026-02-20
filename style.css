@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background-color: var(--bg-pri-col);
+    color: var(--bg-active-col);
+}
+
+main {
+    width: 100%;
+}
+
+main section {
+    display: flex;
+    width: 100%;
+    gap: var(--gutter-md);
+    padding: var(--padding-2xl);
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gutter-md);
+}
+
+.btn {
+    font-size: var();
+    padding: var(--padding-md) var(--padding-2xl);
+    border: none;
+    outline: none;
+    font-size: var(--font-size-lg);
+    cursor: pointer;
+    border-radius: var(--border-rad-md);
+    transition: all 0.3s ease;
+}
+
+#choose {
+    background-color: var(--bg-active-col) !important;
+    color: var(--txt-active-col) !important;
+}
+
+#reset {
+    background-color: var(--bg-danger-col) !important;
+    color: var(--txt-active-col) !important;
+}
+
+#download {
+    background-color: green !important;
+    color: var(--txt-active-col) !important;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gutter-md);
+    width: 70%;
+}
+
+
+.placeholder i {
+    font-size: 5rem;
+    opacity: 0.7;
+}
+
+.placeholder p {
+    opacity: 0.7;
+}
+.center{
+    width: 100%;
+     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-sec-col);
+    border-radius: var(--border-rad-md);
+    width: 100%;
+    aspect-ratio: 1.5/1;
+}
+.right {
+    width: 30%;
+    background-color: var(--bg-sec-col);
+    display: flex;
+    flex-direction: column;
+    gap: var(--gutter-md);
+    padding: var(--padding-md);
+    border-radius: var(--border-rad-md);
+}
+
+.filter {
+    width: 100%;
+    appearance: none;
+    margin-top: var(--margin-sm);
+}
+
+.filter input {
+    width: 100%;
+    outline: none;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gutter-md);
+}
+
+.filter input::-webkit-slider-runnable-track {
+    background-color: var(--bg-active-col);
+    height: 3px;
+    border-radius: var(--border-rad-md);
+}
+
+.filter input::-webkit-slider-thumb {
+    cursor: pointer;
+    appearance: none;
+    height: 20px;
+    background-color: red;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: -8.5px;
+}
+
+canvas{
+    display: none;
+    background-color: transparent;
+    max-width: 90%;
+    max-height: 80vh;
+}
+
+.presets{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gutter-md);
+}
